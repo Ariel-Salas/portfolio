@@ -29,13 +29,13 @@
         width: 100%;
         max-width: 250px;
         max-height: 250px;
-
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 46px;
         border-radius: 50% !important;
         border: 3px solid #fff;
         /* border-radius: 300px; */
+        object-fit: cover;
     }
     .left-sidebar .sidebar-header .designation {
         line-height: 1.4;
