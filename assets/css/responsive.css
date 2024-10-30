@@ -271,7 +271,7 @@
     }
 
     .portfolio-items .portfolio-item .portfolio-item-inner {
-        height: 230px;
+        height: 220px;
         overflow: hidden;
         border-radius: 15px;
         position: relative;
@@ -281,7 +281,7 @@
 
 
     .portfolio-items .portfolio-item.portfolio-full .portfolio-item-inner {
-        height: 230px;
+        height: 220px;
     }
 
 
@@ -290,7 +290,6 @@
         width: 100%;
         height: 100%;
         object-fit: fill;
-        
       
     
     
