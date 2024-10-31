@@ -40,6 +40,11 @@
     .left-sidebar .sidebar-header .designation {
         line-height: 1.4;
     }
+
+
+
+
+
 }
 
 @media (max-width: 1220px) {
@@ -383,6 +388,8 @@
     .comments-area .comments .children {
         padding-left: 40px;
     }
+
+
 }
 @media (max-width: 425px) {
     .comments-area .comments .comments-list .comment-item .comment-body .comment-content h4 {

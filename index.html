@@ -173,9 +173,15 @@
         </li>
     </ul>
 
-    <div class="left-sidebar">
+    <div class="left-sidebar large-sidebar">
         <div class="sidebar-header d-flex align-items-center justify-content-between">
-            <img src="./assets/images/logo.png" alt="Logo">
+            <div class="chooseLang large-chooseLang">
+                <div>
+                    <span id="pt-lang" class="lang pt-lang" onclick="changeLang('português', this)"></span>
+                    <span id="en-lang" class="lang en-lang chosen" onclick="changeLang('english', this)"></span>
+                    <span id="es-lang" class="lang es-lang" onclick="changeLang('espanol', this)"></span>
+                </div>
+            </div>
             <span class="designation">Full Stack Developer</span>
         </div>
         <img class="me" src="./assets/images/photo_perfil7.jpg" alt="Me">
@@ -202,8 +208,8 @@
                 </a>
             </li>
         </ul>
-        <a href="#" class="theme-btn">
-            <i class="las la-envelope"></i> Dowload CV
+        <a href="https://drive.google.com/uc?export=download&id=1hVfOxmub2Yno3WxYyMTsXCQjARz0COtm" class="theme-btn" download>
+            <i class="las la-envelope"></i> Download CV
         </a>
 
         <a href="#" class="theme-btn">
@@ -214,10 +220,15 @@
     <main class="drake-main">
         <div id="smooth-wrapper">
             <div id="smooth-content">
-
-                <div class="left-sidebar">
+                <div class="left-sidebar small-sidebar">
                     <div class="sidebar-header d-flex align-items-center justify-content-between">
-                        <img src="./assets/images/logo.png" alt="Logo">
+                        <div class="chooseLang small-chooseLang">
+                            <div>
+                                <span id="pt-lang" class="lang pt-lang" onclick="changeLang('português', this)"></span>
+                                <span id="en-lang" class="lang en-lang chosen" onclick="changeLang('english', this)"></span>
+                                <span id="es-lang" class="lang es-lang" onclick="changeLang('espanol', this)"></span>
+                            </div>
+                        </div>
                         <span class="designation">Full Stack Developer</span>
                     </div>
                     <img class="me" src="./assets/images/photo_perfil7.jpg" alt="Me">
@@ -244,8 +255,8 @@
                             </a>
                         </li>
                     </ul>
-                    <a href="#" class="theme-btn">
-                        <i class="las la-envelope"></i> Dowload CV
+                    <a href="https://drive.google.com/uc?export=download&id=1hVfOxmub2Yno3WxYyMTsXCQjARz0COtm" class="theme-btn" download>
+                        <i class="las la-envelope"></i> Download CV
                     </a>
 
                     <a href="#" class="theme-btn">
@@ -265,9 +276,8 @@
                                 <h1 class="scroll-animation" data-animation="fade_from_bottom"> <span>Ariel
                                         Salas</span></h1>
                             </div>
-                            <p class="scroll-animation" data-animation="fade_from_bottom">"I am a Software Engineer
-                                based in Santiago, Chile, with experience across a wide range of technologies. I am
-                                passionate about solving complex computing and electronics problems and building user-friendly,
+                            <p class="scroll-animation" data-animation="fade_from_bottom">"I'm a Software Engineer
+                                based in Santiago, Chile, with experience across a wide range of technologies.Passionate about solving complex computing and electronics problems and building user-friendly,
                                 high-quality solutions. With expertise in modern development techniques and trends, I
                                 have the skills to create new applications or enhance existing ones for both individuals
                                 and organizations.".</p>
@@ -961,6 +971,7 @@
 
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/ajax-form.js"></script>
+    <script src="./assets/js/languages.js"></script>
 
 
     <script>
