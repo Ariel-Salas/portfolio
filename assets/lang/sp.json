@@ -1,0 +1,133 @@
+  {
+    "title": "Ariel - Portafolio",
+    "menuLabel": "Menú",
+    "menu": {
+      "home": "Inicio",
+      "about":"Sobre mí",
+      "resume": "Educación",
+      "courses": "Cursos",
+      "skills": "Habilidades",
+      "portfolio": "Portafolio",
+      "contact": "Contacto"
+    },
+
+    "sidebar-social": {
+      "social": "Redes sociales"
+      
+      },
+
+    "large-sidebar": {
+      "designation": "Desarrollador Full Stack",
+      "name": "Ariel Salas Díaz",
+      "role": "Ingeniero en Software",
+      "downloadCV": "Descargar CV",
+      "contactMe": "Contáctame"
+    },
+    
+
+    "small-sidebar": {
+      "designation": "Desarrollador Full Stack",
+      "name": "Ariel Salas Díaz",
+      "role": "Ingeniero en Software",
+      "downloadCV": "Descargar CV",
+      "contactMe": "Contáctame"
+    },
+    
+
+    "hero-content": {
+      "subtitle": "Presentación",
+      "name": "Ariel Salas",
+      "introduction": "Soy un Ingeniero de Software con sede en Santiago, Chile, con experiencia en una amplia gama de tecnologías. Apasionado por resolver problemas complejos de computación, electrónica y construir soluciones amigables para el usuario de alta calidad y facilesde usar. Con experiencia en técnicas y tendencias modernas de desarrollo, tengo las habilidades para crear nuevas aplicaciones o mejorar las existentes, tanto para individuos como para organizaciones.",
+      "years": "0.5+",
+      "yearsDescrip": "Años de\nExperiencia",
+      "proyects": "2+",
+      "proyectsDescrip": "Proyectos\nCompletados"
+    },
+
+    "about-area": {
+      "aboutMe": "Sobre mí",
+      "historyTitle": "Cada gran solución comienza con una historia",
+      "historyTitleGreen": "aún mejor",
+      "aboutMePresentation": "Desde que comencé mi viaje como Ingeniero de Software hace casi 3 años, he tenido la oportunidad de compartir con una variedad de tecnologías y colaborar con equipos talentosos para desarrollar productos digitales tanto para proyectos de organizaciones como personales. Estoy impulsado por una curiosidad natural y un compromiso con el perfeccionamiento de mis habilidades, mientras enfrento cada desafío de ingeniería uno a la vez."
+
+    },
+
+
+    "resume-area": {
+
+      "resume": "Resumen",
+      "profesionalTitle": "Educación",
+      "educationTitle": "Profesional",
+
+      "dateThird": "2024 - Actualmente",
+      "dateThirdText": "Voluntariado en Python Chile",
+      "dateThirdTextSub": "Python Chile",
+
+      "dateSecond": "2021 - 2024",
+      "dateSecondText": "Ingeniería en Software",
+      "dateSecondTextSub": "Universidad Técnica Federico Santa María",
+
+      "dateFirst": "2012 - 2015",
+      "dateFirstText": "Técnico en eléctricidad y electrónica",
+      "dateFirstTextSub": "Instituto Profesional DUOC UC"
+    },
+   
+
+    "services-area": {
+      "services": "Cursos",
+      "coursesTitle": "Mis cursos y",
+      "certificationTitle": "Certificados",
+
+      "ThirdTitle": "Talento Digital Full Stack Java Trainee",
+      "ThirdSubTitle": "Bootcam de Sense",
+      "ThirdYear": "2024",
+
+      "SecondTitle": "Certificado de SFPC Scrum Foundation",
+      "SecondSubTitle": "CertiProf",
+      "SecondYear": "2023",
+
+      "FirstTitle": "Diseño Website",
+      "FirstSubTitle": "Coderhouse",
+      "FirstYear": "2023"
+    },
+
+
+    "skills-section": {
+      "skillsText": "Mis Habilidades",
+      "myTitle": "Mis",
+      "advantagesTitle": "Conocimientos"
+    },
+
+    "portfolio-section": {
+      "portfolioTitle": "Portafolio",
+      "featuredTitle": "Proyectos",
+      "proyectTitle": "Destacados",
+      "proyectOne": "Billetera Digital Front-end",
+      "proyectTwo": "API RESTful con Front-End",
+      "proyectThird": "Aplicación con Angular",
+      "proyectFour": "Evaluación de seguridad de la red"
+    },
+
+
+    "contact-area": {
+      "contact": "Contacto",
+      "LetsWork": "Trabajemos",
+      "together": "Juntos!",
+      "requiredMsg": "*Campos marcados son obligatorios",
+      "fullNameLabel": "Nombre completo",
+      "email": "Email",
+      "phoneNumber": "Teléfono",
+
+      "subjectLabel": "Asunto",
+      "selectSubject": "Seleccione un asunto",
+      "subject1": "Desarrollo de Software",
+      "subject2": "Asunto 2",
+      "subject3": "Asunto 3",
+      "budgetLabel": "Tu presupuesto",
+      "optional": "(opcional)",
+      "messageLabel": "Mensaje",
+      "addAttachment": "Añadir un archivo adjunto",
+      "sendMessage": "Envíame un mensaje"
+    }
+  
+  }

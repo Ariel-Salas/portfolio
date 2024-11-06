@@ -9,8 +9,6 @@
 
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
 
-
-
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,12 +28,10 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
 
-
     <!-- Para videos  -->
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
-
 
 </head>
 
@@ -64,12 +60,12 @@
                 <ul class="menu scroll-nav-responsive d-flex">
                     <li>
                         <a class="scroll-to" href="#home">
-                            <i class="las la-home"></i> <span>Home</span>
+                            <i class="las la-home"></i> <span>Introduce</span>
                         </a>
                     </li>
                     <li>
                         <a class="scroll-to" href="#about">
-                            <i class="lar la-user"></i> <span>About</span>
+                            <i class="lar la-user"></i> <span>About me</span>
                         </a>
                     </li>
                     <li>
@@ -105,9 +101,8 @@
                 </ul>
             </div>
 
-
             <div class="sidebar-social">
-                <p>Social</p>
+                <p>Social Media</p>
                 <ul class="social-links d-flex align-items-center">
                     <li>
                         <!-- Enlace al canal de YouTube -->
@@ -132,42 +127,42 @@
 
     <ul class="menu scroll-nav d-flex">
         <li>
-            <a class="scroll-to" href="#home">
-                <span>Home</span> <i class="las la-home"></i>
+            <a class="scroll-to" href="#home-right">
+                <span>Introduce</span> <i class="las la-home"></i>
             </a>
         </li>
         <li>
-            <a class="scroll-to" href="#about">
+            <a class="scroll-to" href="#about-right">
                 <span>About me</span> <i class="lar la-user"></i>
             </a>
         </li>
         <li>
-            <a class="scroll-to" href="#resume">
+            <a class="scroll-to" href="#resume-right">
                 <span>Resume</span> <i class="las la-briefcase"></i>
             </a>
         </li>
         <li>
-            <a class="scroll-to" href="#services">
+            <a class="scroll-to" href="#services-right">
                 <span>Courses</span> <i class="las la-stream"></i>
             </a>
         </li>
         <li>
-            <a class="scroll-to" href="#skills">
+            <a class="scroll-to" href="#skills-right">
                 <span>Skills</span> <i class="las la-shapes"></i>
             </a>
         </li>
         <li>
-            <a class="scroll-to" href="#portfolio">
+            <a class="scroll-to" href="#portfolio-right">
                 <span>Portfolios</span> <i class="las la-grip-vertical"></i>
             </a>
         </li>
         <!-- <li>
-            <a class="scroll-to" href="#testimonial">
+            <a class="scroll-to" href="#testimonial-right">
                 <span>Testimonial</span> <i class="lar la-comment"></i>
             </a>
         </li> -->
         <li>
-            <a class="scroll-to" href="#contact">
+            <a class="scroll-to" href="#contact-right">
                 <span>Contact</span> <i class="las la-envelope"></i>
             </a>
         </li>
@@ -177,12 +172,16 @@
         <div class="sidebar-header d-flex align-items-center justify-content-between">
             <div class="chooseLang large-chooseLang">
                 <div>
-                    <span id="pt-lang" class="lang pt-lang" onclick="changeLang('português', this)"></span>
+                    <!-- french language  -->
+                    <span id="fr-lang" class="lang fr-lang" onclick="changeLang('francais', this)"></span>
                     <span id="en-lang" class="lang en-lang chosen" onclick="changeLang('english', this)"></span>
-                    <span id="es-lang" class="lang es-lang" onclick="changeLang('espanol', this)"></span>
+                    <span id="sp-lang" class="lang sp-lang" onclick="changeLang('espanol', this)"></span>
                 </div>
             </div>
             <span class="designation">Full Stack Developer</span>
+
+            <!-- Contenedor para el mensaje de aviso -->
+            <div id="lang-message" class="lang-message">"We're still working on the French version!"</div>
         </div>
         <img class="me" src="./assets/images/photo_perfil7.jpg" alt="Me">
         <h2 class="email">Ariel Salas Díaz</h2>
@@ -208,12 +207,16 @@
                 </a>
             </li>
         </ul>
-        <a href="https://drive.google.com/uc?export=download&id=1hVfOxmub2Yno3WxYyMTsXCQjARz0COtm" class="theme-btn" download>
-            <i class="las la-envelope"></i> Download CV
+        <a href="https://drive.google.com/uc?export=download&id=1hVfOxmub2Yno3WxYyMTsXCQjARz0COtm" class="theme-btn download-cv" download>
+            <i class="las la-envelope"></i>
+            <span class="cv-text">Download CV</span>
+
         </a>
 
-        <a href="#" class="theme-btn">
-            <i class="las la-envelope"></i> Contact Me
+        <a href="#" class="theme-btn contact-me">
+            <i class="las la-envelope"></i>
+            <span class="contact-text">Contact</span>
+
         </a>
     </div>
     <!-- Main Section -->
@@ -224,12 +227,15 @@
                     <div class="sidebar-header d-flex align-items-center justify-content-between">
                         <div class="chooseLang small-chooseLang">
                             <div>
-                                <span id="pt-lang" class="lang pt-lang" onclick="changeLang('português', this)"></span>
+                                <span id="fr-lang" class="lang fr-lang" onclick="changeLang('francais', this)"></span>
                                 <span id="en-lang" class="lang en-lang chosen" onclick="changeLang('english', this)"></span>
-                                <span id="es-lang" class="lang es-lang" onclick="changeLang('espanol', this)"></span>
+                                <span id="sp-lang" class="lang sp-lang" onclick="changeLang('espanol', this)"></span>
                             </div>
                         </div>
                         <span class="designation">Full Stack Developer</span>
+
+                        <!-- Contenedor para el mensaje de aviso -->
+                        <div id="lang-message" class="lang-message">"We're still working on the French version!"</div>
                     </div>
                     <img class="me" src="./assets/images/photo_perfil7.jpg" alt="Me">
                     <h2 class="email">Ariel Salas Díaz</h2>
@@ -255,28 +261,29 @@
                             </a>
                         </li>
                     </ul>
-                    <a href="https://drive.google.com/uc?export=download&id=1hVfOxmub2Yno3WxYyMTsXCQjARz0COtm" class="theme-btn" download>
-                        <i class="las la-envelope"></i> Download CV
+                    <a href="https://drive.google.com/uc?export=download&id=1hVfOxmub2Yno3WxYyMTsXCQjARz0COtm" class="theme-btn download-cv" download>
+                        <i class="las la-envelope "></i>
+                        <span class="cv-text">Download CV</span>
                     </a>
 
-                    <a href="#" class="theme-btn">
-                        <i class="las la-envelope"></i> Contact
+                    <a href="#" class="theme-btn contact-me">
+                        <i class="las la-envelope "></i>
+                        <span class="contact-text">Contact</span>
                     </a>
                 </div>
 
                 <!-- Hero Section -->
                 <section class="hero-section page-section scroll-to-page" id="home">
-
                     <div class="custom-container">
                         <div class="hero-content content-width">
                             <div class="section-header">
                                 <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
-                                    <i class="las la-home"></i> Introduce
+                                    <i class="las la-home"></i> <span class="subtitle-text">Introduce</span>   
                                 </h4>
-                                <h1 class="scroll-animation" data-animation="fade_from_bottom"> <span>Ariel
-                                        Salas</span></h1>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom"> <span class="name">Ariel Salas</span>
+                                </h1>
                             </div>
-                            <p class="scroll-animation" data-animation="fade_from_bottom">"I'm a Software Engineer
+                            <p class="scroll-animation introduce-text" data-animation="fade_from_bottom">"I'm a Software Engineer
                                 based in Santiago, Chile, with experience across a wide range of technologies.Passionate about solving complex computing and electronics problems and building user-friendly,
                                 high-quality solutions. With expertise in modern development techniques and trends, I
                                 have the skills to create new applications or enhance existing ones for both individuals
@@ -286,7 +293,6 @@
                                 <img src="./assets/images/round-text.png" alt="Rounded Text">
                                 <i class="las la-arrow-down"></i>
                             </a>
-
                             <div class="facts d-flex">
                                 <div class="left scroll-animation" data-animation="fade_from_left">
                                     <h1>0.5+</h1>
@@ -300,23 +306,24 @@
                         </div>
                     </div>
                 </section>
-
+ 
                 <!-- About Section -->
                 <section class="about-area page-section scroll-to-page" id="about">
                     <div class="custom-container">
                         <div class="about-content content-width">
                             <div class="section-header">
                                 <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
-                                    <i class="lar la-user"></i> About me
+                                    <i class="lar la-user"></i> <span class="about-text">About me</span>
                                 </h4>
-                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Every great solution begin
-                                    with<br>
-                                    an even <span>better story</span></h1>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">
+                                    <span class="main-text">Every great solution begin with<br>an even </span>
+                                    <span class="better-story">better story</span>
+                                </h1>
                             </div>
-                            <p class="scroll-animation" data-animation="fade_from_bottom">Since beginning my journey as
+                            <p class="scroll-animation about-me-presentation" data-animation="fade_from_bottom">Since beginning my journey as
                                 a Software Engineer nearly 3 years ago, I've had the opportunity to work with a variety
                                 of technologies and collaborate with talented teams to develop digital products for both
-                                business and personal projects. I'm driven by natural curiosity, quiet confidence, and a
+                                business and personal projects. I'm driven by natural curiosity and a
                                 commitment to refining my skills while tackling each engineering challenge one at a
                                 time.</p>
                         </div>
@@ -329,41 +336,31 @@
                         <div class="resume-content content-width">
                             <div class="section-header">
                                 <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
-                                    <i class="las la-briefcase"></i> Resume
+                                    <i class="las la-briefcase"></i> 
+                                    <span class="resume-title">Resume</span>
                                 </h4>
-                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Professional
-                                    <span>Education</span>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">
+                                    <span class="professional-title">Professional</span>                                   
+                                    <span class="education-title">Education</span>
                                 </h1>
                             </div>
-
                             <div class="resume-timeline">
-
-
-
-
-
-                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                <div class="item scroll-animation" data-animation="fade_from_right" data-item="1">
                                     <span class="date">2024 - Present</span>
-
-                                    <h2>Volunteer at python Chile</h2>
-                                    <p>Python Chile</p>
+                                    <h2 data-title="1">Volunteer at python Chile</h2>
+                                    <p data-subtitle="1">Python Chile</p>
                                 </div>
-
-
-
-                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                <div class="item scroll-animation" data-animation="fade_from_right" data-item="2">
                                     <span class="date">2021 - 2024</span>
-
-                                    <h2>Software Engineer</h2>
-                                    <p>Universidad Técnica Federico Santa María</p>
+                                    <h2 data-title="2">Software Engineer</h2>
+                                    <p data-subtitle="2">Universidad Técnica Federico Santa María</p>
                                 </div>
-                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                <div class="item scroll-animation" data-animation="fade_from_right" data-item="3">
                                     <span class="date">2012 - 2015</span>
-                                    <h2>Technician in Electricity and Electronics</h2>
-                                    <p>DUOC UC</p>
+                                    <h2 data-title="3">Technician in Electricity and Electronics</h2>
+                                    <p data-subtitle="3">DUOC UC</p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </section>
@@ -374,34 +371,34 @@
                         <div class="services-content content-width">
                             <div class="section-header">
                                 <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
-                                    <i class="las la-stream"></i> Services
+                                    <i class="las la-stream"></i> 
+                                    <span class="services-text">Courses</span>
                                 </h4>
-                                <h1 class="scroll-animation" data-animation="fade_from_bottom">My courses and
-                                    <span>Certifications</span>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">                                  
+                                    <span class="courses-title">My courses and</span>
+                                    <span class="certification-title">Certifications</span>
                                 </h1>
                             </div>
-
                             <div class="services-items">
-                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom" data-item="1">
                                     <i class="las la-bezier-curve"></i>
-                                    <h2>Talento Digital Full Stack Java Trainee </h2>
-                                    <p>Sence Bootcamp</p>
+                                    <h2 data-title="1">Talento Digital Full Stack Java Trainee </h2>
+                                    <p data-title="1">Sence Bootcamp</p>
                                     <span class="projects">2024</span>
                                 </div>
-                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom" data-item="2">
                                     <i class="las la-code"></i>
-                                    <h2>SFPC Scrum Foundation Certificate </h2>
-                                    <p>CertiProf </p>
+                                    <h2 data-title="2">SFPC Scrum Foundation Certificate </h2>
+                                    <p data-title="2">CertiProf </p>
                                     <span class="projects">2023</span>
                                 </div>
-                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom" data-item="3">
                                     <i class="las la-bezier-curve"></i>
-                                    <h2>Website Design</h2>
-                                    <p> Coderhouse</p>
+                                    <h2 data-title="3">Website Design</h2>
+                                    <p data-title="3"> Coderhouse</p>
                                     <span class="projects">2023</span>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </section>
@@ -412,13 +409,14 @@
                         <div class="skills-content content-width">
                             <div class="section-header">
                                 <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
-                                    <i class="las la-shapes"></i> my skills
+                                    <i class="las la-shapes"></i> 
+                                    <span class="skills-text">my skills</span>
                                 </h4>
-                                <h1 class="scroll-animation" data-animation="fade_from_bottom">My
-                                    <span>Advantages</span>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">
+                                    <span class="my-title">My</span>
+                                    <span class="advantages-title">Advantages</span>
                                 </h1>
                             </div>
-
                             <div class="row skills text-center">
                                 <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
                                     <div class="skill">
@@ -474,7 +472,6 @@
                                         <p class="name">Node.js</p>
                                     </div>
                                 </div>
-
                                 <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
                                     <div class="skill">
                                         <div class="skill-inner">
@@ -484,7 +481,6 @@
                                         <p class="name">Java</p>
                                     </div>
                                 </div>
-
                                 <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
                                     <div class="skill">
                                         <div class="skill-inner">
@@ -494,9 +490,7 @@
                                         <p class="name">SQL</p>
                                     </div>
                                 </div>
-
                             </div>
-
                         </div>
                     </div>
                 </section>
@@ -507,13 +501,14 @@
                         <div class="portfolio-content content-width">
                             <div class="section-header">
                                 <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
-                                    <i class="las la-grip-vertical"></i> portfolio
+                                    <i class="las la-grip-vertical"></i> 
+                                    <span class="portfolio-title">portfolio</span>
                                 </h4>
-                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Featured
-                                    <span>Projects</span>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">
+                                    <span class="featured-title">Featured</span> 
+                                    <span class="proyect-title">Projects</span>
                                 </h1>
                             </div>
-
                             <div class="row portfolio-items">
                                 <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
                                     <div class="portfolio-item portfolio-full">
@@ -523,7 +518,6 @@
                                                 data-fancybox="gallery" data-caption="Digital Wallet Video">
                                                 <img src="./assets/images/proyecto1_imagen12.jpg" alt="Portfolio">
                                             </a>
-
                                             </a>
                                             <!-- Categorías -->
                                             <ul class="portfolio-categories">
@@ -531,55 +525,11 @@
                                                 <li><a href="">Css</a></li>
                                                 <li><a href="">JS</a></li>
                                                 <li><a href="">Grid Template</a></li>
-
                                             </ul>
                                         </div>
-                                        <h2><a href="">Digital wallet Front-end</a></h2>
+                                        <h2 data-title="portfolio-1"><a href="">Digital wallet Front-end</a></h2>
                                     </div>
                                 </div>
-
-
-                                <!-- <div class="col-md-6 scroll-animation" data-animation="fade_from_left">
-                                    <div class="portfolio-item portfolio-half">
-                                        <div class="portfolio-item-inner">
-                                            <a href="./assets/images/portfolio2.jpg" data-lightbox="example-1">
-                                                <img src="./assets/images/portfolio2.jpg" alt="Portfolio">
-                                            </a>
-
-                                            <img src="./assets/images/portfolio2.jpg" alt="Portfolio">
-        
-                                            <ul class="portfolio-categories">
-                                                <li>
-                                                    <a href="">WordPress</a>
-                                                </li>
-                                                <li>
-                                                    <a href="">Larevel/PHP</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <h2><a href="">Moonex WordPress Theme</a></h2>
-                                    </div>
-                                </div>
-        
-                                <div class="col-md-6 scroll-animation" data-animation="fade_from_right">
-                                    <div class="portfolio-item portfolio-half">
-                                        <div class="portfolio-item-inner">
-                                            <a href="./assets/images/portfolio3.jpg" data-lightbox="example-1">
-                                                <img src="./assets/images/portfolio3.jpg" alt="Portfolio">
-                                            </a>
-        
-                                            <ul class="portfolio-categories">
-                                                <li>
-                                                    <a href="">Figma</a>
-                                                </li>
-                                                <li>
-                                                    <a href="">Webflow</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <h2><a href="">Taskly Dashboard</a></h2>
-                                    </div>
-                                </div> -->
 
                                 <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
                                     <div class="portfolio-item portfolio-half">
@@ -614,7 +564,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <h2><a href="">API RESTful with Front-End</a></h2>
+                                        <h2 data-title="portfolio-2"><a href="">API RESTful with Front-End</a></h2>
                                     </div>
                                 </div>
 
@@ -650,10 +600,9 @@
 
                                             </ul>
                                         </div>
-                                        <h2><a href="">Angular application</a></h2>
+                                        <h2 data-title="portfolio-3"><a href="">Angular application</a></h2>
                                     </div>
                                 </div>
-
 
                                 <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
                                     <div class="portfolio-item portfolio-half">
@@ -675,16 +624,11 @@
                                                     <a href="">Penetration Testing</a>
                                                 </li>
 
-
-
                                             </ul>
                                         </div>
-                                        <h2><a href="">Network Security Assessment</a></h2>
+                                        <h2 data-title="portfolio-4"><a href="">Network Security Assessment</a></h2>
                                     </div>
                                 </div>
-
-
-
 
                             </div>
 
@@ -692,189 +636,18 @@
                     </div>
                 </section>
 
-                <!-- Testimonial Section
-                <section class="testimonial-area page-section scroll-to-page" id="testimonial">
-                    <div class="custom-container">
-                        <div class="testimonial-content content-width">
-                            <div class="section-header">
-                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
-                                    <i class="lar la-comment"></i> testimonial
-                                </h4>
-                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Trusted by <span>Hundered Clients</span></h1>
-                            </div>
-        
-                            <div class="testimonial-slider-wrap scroll-animation" data-animation="fade_from_bottom">
-                                <div class="owl-carousel testimonial-slider owl-theme">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-item-inner">
-                                            <div class="author d-flex align-items-center">
-                                                <img src="./assets/images/testimonial-1.jpg" alt="portfolio">
-                                                <div class="right">
-                                                    <h3>Paublo Dybala</h3>
-                                                    <p class="designation">CEO of <span>IBM Global</span></p>
-                                                </div>
-                                            </div>
-                                            <p>“Drake - A Developer with the creativity, professional and 
-                                                master of code. Much more than what i'm expect. 
-                                                High quality product & flexiable price. Recommended!.”</p>
-        
-                                            <a href="" class="project-btn">Project</a>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-item-inner">
-                                            <div class="author d-flex align-items-center">
-                                                <img src="./assets/images/testimonial-2.jpg" alt="portfolio">
-                                                <div class="right">
-                                                    <h3>Christina Morillo</h3>
-                                                    <p class="designation">Product Management of <span>Invision App Inc</span></p>
-                                                </div>
-                                            </div>
-                                            <p>“Drake was a real pleasure to work with and we look 
-                                                forward to working with him again. He's definitely the kind of 
-                                                designer that you can trust with any project from A-Z.”</p>
-        
-                                            <a href="" class="project-btn">Project</a>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-item-inner">
-                                            <div class="author d-flex align-items-center">
-                                                <img src="./assets/images/gato_suit.jpeg" alt="portfolio">
-                                                <div class="right">
-                                                    <h3>Phil Foden</h3>
-                                                    <p class="designation">Director of <span>Envato LLC</span></p>
-                                                </div>
-                                            </div>
-                                            <p>“Extremely profressional and fast service!. Drake is a master
-                                                of code and he also very creative. We done 3 projects with
-                                                him and certain will continue.”</p>
-        
-                                            <a href="" class="project-btn">Project</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="testimonial-footer-nav">
-                                    <div class="testimonial-nav d-flex align-items-center">
-                                        <button class="prev"><i class="las la-angle-left"></i></button>
-                                        <div id="testimonial-slide-count"></div>
-                                        <button class="next"><i class="las la-angle-right"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-        
-                            <div class="clients-logos">
-                                <h4 class="scroll-animation" data-animation="fade_from_bottom">work with 60+ brands worldwide</h4>
-                                <div class="row align-items-center">
-                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
-                                        <img src="./assets/images/client-1.png" alt="client">
-                                    </div>
-                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
-                                        <img src="./assets/images/client-2.png" alt="client">
-                                    </div>
-                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_top">
-                                        <img src="./assets/images/client-3.png" alt="client">
-                                    </div>
-                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
-                                        <img src="./assets/images/client-4.png" alt="client">
-                                    </div>
-                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
-                                        <img src="./assets/images/client-5.png" alt="client">
-                                    </div>
-                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
-                                        <img src="./assets/images/client-6.png" alt="client">
-                                    </div>
-                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_top">
-                                        <img src="./assets/images/client-7.png" alt="client">
-                                    </div>
-                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
-                                        <img src="./assets/images/client-8.png" alt="client">
-                                    </div>
-                                </div>
-                            </div>
-        
-                        </div>
-                    </div>
-                </section> -->
-
-                <!-- Pricing Section -->
-                <!-- <section class="pricing-area page-section scroll-to-page" id="pricing">
-                    <div class="custom-container">
-                        <div class="pricing-content content-width">
-                            <div class="section-header">
-                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
-                                    <i class="las la-dollar-sign"></i> pricing
-                                </h4>
-                                <h1 class="scroll-animation" data-animation="fade_from_bottom">My <span>Pricing</span></h1>
-                            </div>
-        
-                            <div class="pricing-table-items">
-                                <div class="row">
-                                    <div class="col-md-6 scroll-animation" data-animation="fade_from_left">
-                                        <div class="pricing-table">
-                                            <div class="pricing-table-header">
-                                                <div class="top d-flex justify-content-between align-items-start">
-                                                    <h4>basic</h4>
-                                                    <p class="text-right">Have design ready to build?<br>
-                                                        or small budget</p>
-                                                </div>
-                                                <h1>$69 <span>/ hour</span></h1>
-                                            </div>
-                                            <ul class="feature-lists">
-                                                <li>Need your wireframe</li>
-                                                <li>Design with Figma, Framer</li>
-                                                <li>Implement with Webflow, React, WordPress, Laravel/PHP</li>
-                                                <li>Remote/Online</li>
-                                                <li>Work in business days, no weekend.</li>
-                                                <li>Support 6 months</li>
-                                            </ul>
-                                            <a href="" class="theme-btn">pick this package</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 scroll-animation" data-animation="fade_from_right">
-                                        <div class="pricing-table">
-                                            <div class="pricing-table-header">
-                                                <div class="top d-flex justify-content-between align-items-start">
-                                                    <h4>premium</h4>
-                                                    <p class="text-right">Not have any design?<br>
-                                                        Leave its for me</p>
-                                                </div>
-                                                <h1>$129 <span>/ hour</span></h1>
-                                            </div>
-                                            <ul class="feature-lists">
-                                                <li>Don't need wireframe or anything</li>
-                                                <li>Design with Figma, Framer from scratch</li>
-                                                <li>Implement with Webflow, React, WordPress, Laravel/PHP</li>
-                                                <li>Remote/Online</li>
-                                                <li>Work with both weekend</li>
-                                                <li>Support 12 months</li>
-                                                <li>Your project alway be priority</li>
-                                                <li>Customer care gifts</li>
-                                            </ul>
-                                            <a href="" class="theme-btn">pick this package</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p class="info scroll-animation" data-animation="fade_from_bottom">
-                                    Don't find any package match with your plan!<br>
-                                    Want to setup a new tailor-made package for only you?. <a href="">Contact Us</a>
-                                </p>
-                            </div>
-        
-                        </div>
-                    </div>
-                </section> -->
-
                 <!-- Contact Section -->
                 <section class="contact-area page-section scroll-content" id="contact">
                     <div class="custom-container">
                         <div class="contact-content content-width">
                             <div class="section-header">
                                 <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
-                                    <i class="las la-dollar-sign"></i> contact
+                                    <i class="las la-dollar-sign"></i> 
+                                    <span class="contact-title">contact</span>
                                 </h4>
-                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Let's Work
-                                    <span>Together!</span>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">
+                                    <span class="let-title">Let's Work</span>
+                                    <span class="together-title">Together!</span>
                                 </h1>
                             </div>
                             <h3 class="scroll-animation" data-animation="fade_from_bottom">arielsd12@gmail.com</h3>
@@ -912,7 +685,7 @@
                                             <label for="subject">subject <sup>*</sup></label>
                                             <select name="subject" id="subject">
                                                 <option value="">Select a subject</option>
-                                                <option value="subject1">Subject 1</option>
+                                                <option value="subject1">Software Development</option>
                                                 <option value="subject2">Subject 2</option>
                                                 <option value="subject3">Subject 3</option>
                                             </select>
@@ -936,7 +709,8 @@
                                         <div class="input-group upload-attachment">
                                             <div>
                                                 <label for="upload-attachment">
-                                                    <i class="las la-cloud-upload-alt"></i> add an attachment
+                                                    <i class="las la-cloud-upload-alt"></i> 
+                                                    <span class="attachment-text">add an attachment</span>
                                                     <input type="file" name="file" id="upload-attachment">
                                                 </label>
 
@@ -960,7 +734,6 @@
         </div>
     </main>
 
-
     <script src="./assets/js/jquery.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/owl.carousel.js"></script>
@@ -971,7 +744,6 @@
 
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/ajax-form.js"></script>
-    <script src="./assets/js/languages.js"></script>
 
 
     <script>
@@ -989,7 +761,7 @@
         });
     </script>
 
-
+    <script src="./assets/js/languages.js"></script>
 </body>
 
 </html>

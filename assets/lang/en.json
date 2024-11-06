@@ -1,0 +1,111 @@
+
+{
+  "title": "Ariel - Portfolio",
+  "menuLabel": "Menu",
+  "menu": {
+    "home": "Home",
+    "about":"About Me",
+    "resume": "Education",
+    "courses": "Courses",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+
+  "sidebar-social": {
+    "social": "Social Media"
+    
+    },
+
+  "large-sidebar": {
+    "designation": "Full Stack Developer",
+    "name": "Ariel Salas Díaz",
+    "role": "Software Engineer",
+    "downloadCV": "Download CV",
+    "contactMe": "Contact Me"
+  },
+  
+
+  "small-sidebar": {
+    "designation": "Full Stack Developer",
+    "name": "Ariel Salas Díaz",
+    "role": "Software Engineer",
+    "downloadCV": "Download CV",
+    "contactMe": "Contact"
+  },
+  
+
+  "hero-content": {
+    "subtitle": "Introduce",
+    "name": "Ariel Salas",
+    "introduction": "I'm a Software Engineer based in Santiago, Chile, with experience across a wide range of technologies.Passionate about solving complex computing and electronics problems and building user-friendly, high-quality solutions. With expertise in modern development techniques and trends, Ihave the skills to create new applications or enhance existing ones for both individuals and organizations.",
+    "years": "0.5+",
+    "yearsDescrip": "Years of\nExperience",
+    "proyects": "2+",
+    "proyectsDescrip": "projects\ncompleted"
+  },
+
+  "about-area": {
+    "aboutMe": "Sobre mí",
+    "historyTitle": "Cada gran solución comienza con una historia",
+    "historyTitleGreen": "aún mejor",
+    "aboutMePresentation": "Desde que comencé mi viaje como Ingeniero de Software hace casi 3 años, he tenido la oportunidad de trabajar con una variedad de tecnologías y colaborar con equipos talentosos para desarrollar productos digitales tanto para proyectos comerciales como personales. Estoy impulsado por una curiosidad natural, una confianza tranquila y un compromiso con el perfeccionamiento de mis habilidades mientras enfrento cada desafío de ingeniería uno a la vez."
+
+  },
+
+
+  "resume-area": {
+
+    "resume": "Resumen",
+    "profesionalTitle": "Educación",
+    "educationTitle": "Profesional",
+
+    "dateThird": "2024 - Actualmente",
+    "dateThirdText": "Voluntariado en Python Chile",
+    "dateThirdTextSub": "Python Chile",
+
+    "dateSecond": "2021 - 2024",
+    "dateSecondText": "Ingeniería en Software",
+    "dateSecondTextSub": "Universidad Técnica Federico Santa María",
+
+    "dateFirst": "2012 - 2015",
+    "dateFirstText": "Técnico en eléctricidad y electrónica",
+    "dateFirstTextSub": "Instituto Profesional DUOC UC"
+  },
+ 
+
+  "services-area": {
+    "services": "Cursos",
+    "coursesTitle": "Mis cursos y",
+    "certificationTitle": "Certificados",
+
+    "ThirdTitle": "Talento Digital Full Stack Java Trainee",
+    "ThirdSubTitle": "Bootcam de Sense",
+    "ThirdYear": "2024",
+
+    "SecondTitle": "Certificado de SFPC Scrum Foundation",
+    "SecondSubTitle": "CertiProf",
+    "SecondYear": "2023",
+
+    "FirstTitle": "Diseño Website",
+    "FirstSubTitle": "Coderhouse",
+    "FirstYear": "2023"
+  },
+
+
+  "skills-section": {
+    "skillsText": "Mis Habilidades",
+    "myTitle": "Mis",
+    "advantagesTitle": "Conocimientos"
+  },
+
+  "portfolio-section": {
+    "portfolioTitle": "Portafolio",
+    "featuredTitle": "Proyectos",
+    "proyectTitle": "Destacados",
+    "proyectOne": "Billetera Digital Front-end",
+    "proyectTwo": "API RESTful con Front-End",
+    "proyectThird": "Aplicación con Angular",
+    "proyectFour": "Evaluación de seguridad de la red"
+  },
+

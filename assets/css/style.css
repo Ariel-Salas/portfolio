@@ -197,6 +197,8 @@ ul {
     align-items: center;
 }
 
+
+
 .subtitle i {
     margin-bottom: 1px;
     font-size: 14px;
@@ -465,6 +467,7 @@ main.drake-main {
     margin: 0;
     padding: 0;
     border-radius: 0;
+    white-space: nowrap;
 }
 
 .responsive-sidebar-menu .sidebar-menu-inner .menu-wrap .menu li a span::before {
@@ -809,9 +812,43 @@ main.drake-main {
     margin-bottom: 33px;
 }
 
-.section-header h1 span {
+
+/* .section-header h1 span{
+    color: var(--primary_color);
+
+
+} */
+
+.section-header h1 .better-story {
     color: var(--primary_color);
 }
+
+
+
+.section-header h1 .education-title {
+    color: var(--primary_color);
+}
+
+
+
+.section-header h1 .certification-title {
+    color: var(--primary_color);
+}
+
+.section-header h1 .advantages-title {
+    color: var(--primary_color);
+}
+
+.section-header h1 .proyect-title {
+    color: var(--primary_color);
+}
+
+
+.section-header h1 .together-title {
+    color: var(--primary_color);
+}
+
+
 
 
 /* 06 - Left Sidebar */
@@ -1107,7 +1144,7 @@ body .body-overlay {
     transition: .3s;
 }
 
-.resume-area .resume-content .resume-timeline .item .date {
+.resume-area .resume-content .resume-timeline .item .date{
     display: block;
     margin-bottom: 28px;
     transition: .3s;
@@ -1578,6 +1615,14 @@ body .body-overlay {
     color: #fff;
     margin-bottom: 2px;
 }
+
+.contact-area .contact-content .contact-form .input-group label .attachment-text {
+ 
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
 
 .contact-area .contact-content .contact-form .input-group label sup {
     color: #fc4545;
@@ -2385,7 +2430,7 @@ body .body-overlay {
     justify-content: center;
     align-items: center;
     /* Alinear en el eje vertical */
-    visibility: hidden;
+    visibility: visible;
 }
 
 .chooseLang div {
@@ -2409,12 +2454,12 @@ body .body-overlay {
     width: 40px;
 }
 
-.pt-lang {
+.fr-lang {
     background-image: url(../images/france.png);
     background-size: cover;
 }
 
-.open .pt-lang {
+.open .fr-lang {
     left: 96px;
     top: 0px;
     opacity: 1;
@@ -2431,12 +2476,12 @@ body .body-overlay {
     opacity: 1;
 }
 
-.es-lang {
+.sp-lang {
     background-image: url(../images/spain.png);
     background-size: cover;
 }
 
-.open .es-lang {
+.open .sp-lang {
     left: 48px;
     top: 0px;
     opacity: 1;
@@ -2445,4 +2490,28 @@ body .body-overlay {
 .chooseLang .chosen {
     opacity: 1;
     z-index: 1;
+}
+
+
+
+
+
+.lang-message {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    z-index: 1000;
+}
+
+/* Clase para mostrar el mensaje */
+.lang-message.show {
+    opacity: 1;
+    visibility: visible;
 }
